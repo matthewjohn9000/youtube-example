@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+p {
+    width: 700px;
+}
+nav {
+    height: 75px;
+}
+nav ul {
+    list-style: none;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-around;
+ }
+nav input {
+    width: 300px;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main {
+    width: 900px;
+}
+.side {
+    width: 900px;
+}
+.main button{
+    margin: 15px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    border-style: none;
+}
+.main button:hover {
+    cursor: pointer;
+}
+.video-info {
+    position: relative;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+
+}
+.video-card {
+    float: left;
+}
+.video-holder {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: lightskyblue;
+}
+.video-holder-info {
+    float: left;
+}
